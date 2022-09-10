@@ -1,6 +1,0 @@
-dependencies:
-- name: app
-  repository: https://hajdukd.github.io/bhav-sample-shared
-  version: 0.2.0
-digest: sha256:6be0e8d07139204a4bb657c1663f325bdc89394b7d86500519d5cd1a294f2fd5
-generated: "2022-09-10T16:02:49.031337991+02:00"
