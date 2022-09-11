@@ -18,6 +18,20 @@ entries:
   bhav:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2022-09-11T13:46:16.890837817Z"
+    dependencies:
+    - name: app
+      repository: https://hajdukd.github.io/bhav-sample-shared
+      version: 0.2.1
+    description: Bhav helm chart for Kubernetes v2
+    digest: 7bbdd3950cefa41b45886e028295d95eecd26b6aaa7ca84c634024266934182f
+    name: bhav
+    type: application
+    urls:
+    - https://github.com/hajdukd/bhav-sample-sourcecode/releases/download/bhav-0.2.4/bhav-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2022-09-11T13:30:24.529231835Z"
     dependencies:
     - name: app
@@ -44,4 +58,4 @@ entries:
     urls:
     - https://github.com/hajdukd/bhav-sample-sourcecode/releases/download/bhav-0.2.2/bhav-0.2.2.tgz
     version: 0.2.2
-generated: "2022-09-11T13:30:24.529925241Z"
+generated: "2022-09-11T13:46:16.890848617Z"
