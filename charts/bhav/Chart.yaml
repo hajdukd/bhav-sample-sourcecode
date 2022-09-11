@@ -2,12 +2,12 @@ apiVersion: v2
 name: bhav
 description: Bhav helm chart for Kubernetes v2
 type: application
-version: 0.2.3
+version: 0.2.4
 appVersion: "0.1.0"
 
 # This chart is built from common base chart for all similar apps
 # It's extended with custom things required by bhav app
 dependencies:
   - name: app
-    version: 0.2.0
+    version: 0.2.1
     repository: "https://hajdukd.github.io/bhav-sample-shared"
